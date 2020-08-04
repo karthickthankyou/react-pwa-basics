@@ -17,7 +17,7 @@ function App() {
         <div>
             <label htmlFor="todo_id">
                 ID:
-                <input id='todo_id' type="text" className="search" placeholder="Search..." value={id} onChange={e => setId(e.target.value)} onKeyPress={pressEnter} />
+                <input id='todo_id' type="text" className="search" placeholder="Type a number..." value={id} onChange={e => setId(e.target.value)} onKeyPress={pressEnter} />
             </label>
             {(Object.keys(todo).length > 0) &&
                 <div className="todo">
